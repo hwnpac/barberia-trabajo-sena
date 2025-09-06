@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barbería El Estilo - Inicio</title>
+
+  <!-- Iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <!-- Tipografías -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <a href="index.html">Barbería El Estilo</a>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Inicio</a></li>
+        <li><a href="reserva.html">Reservar Cita</a></li>
+        <li><a href="cortes.html">Cortes</a></li>
+        <li><a href="promociones.html">Promociones</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="guardar_reserva.php">guardar_reserva</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contenido principal -->
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <h1>Bienvenidos a Barbería El Estilo</h1>
+      <p>Donde tu estilo cobra vida. Descubre nuestros servicios y reserva tu cita hoy.</p>
+      <a href="reserva.html" class="btn-primary">Reservar Cita Ahora</a>
+      <form id="reservaForm" action="https://midominio.com/guardar_reserva.php" method="POST">
+    </section>
+
+    <!-- Servicios -->
+    <section class="features">
+      <h2>Nuestros Servicios Destacados</h2>
+
+      <div class="feature-item">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRsxwnWguEwznniEpnx0ZZSxnq8DMTpdo_RlC5tF3akEEEwQNVr0gV-IS-k_482OEb3lkDijR6Hho4BROWe2S-cGnfln4MZ-4wdyGxD0lIm13AhGHnodKMZg67HnAwSnzbu2L-Ej3Cmrc/s16000/minicalendarioMesa_DibujosdeColores_portada.jpg" alt="Calendario para reservar cita">
+        <h3>Reservar Cita</h3>
+        <p>Agenda tu turno de forma rápida y sencilla.</p>
+        <a href="reserva.html" class="btn-secondary">Agendar</a>
+      </div>
+
+      <div class="feature-item">
+        <img src="https://www.barberiaelche.es/wp-content/uploads/2022/09/IMG_9631-1172x877.jpeg" alt="Corte de pelo moderno">
+        <h3>Cortes en Tendencia</h3>
+        <p>Explora los estilos más modernos y populares.</p>
+        <a href="cortes.html" class="btn-secondary">Ver Cortes</a>
+      </div>
+
+      <div class="feature-item">
+        <img src="https://d1ih8jugeo2m5m.cloudfront.net/2024/09/promociones_2x1_ejemplo.jpg" alt="Cartel de promociones">
+        <h3>Promociones</h3>
+        <p>No te pierdas nuestras ofertas especiales y paquetes.</p>
+        <a href="promociones.html" class="btn-secondary">Ver Ofertas</a>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contact-section">
+      <h2>Contáctanos</h2>
+      <p>Visítanos en nuestra ubicación o síguenos en redes sociales.</p>
+      <p><i class="fas fa-map-marker-alt"></i> Cra 72, Colombia, Cali</p>
+      <p><i class="fas fa-phone"></i> 3254444444</p>
+      <p><i class="fas fa-envelope"></i> info@barberiaestilo.com</p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Barbería El Estilo. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
